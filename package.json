@@ -1,0 +1,18 @@
+{
+  "name": "FinnCalc",
+  "version": "1.0.0",
+  "description": "Homework assignment for wealthbar",
+  "main": "index.js",
+  "author": "lachlan mackenzie",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^4.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
