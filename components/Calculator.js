@@ -180,32 +180,33 @@ class Calculator extends React.Component {
 
         <div className="output">
 
-          <h2>FUTURE VALUE: {this.state.nominalFutureValue.toFixed(2)}</h2> 
-          <h4>(Adjusted for Inflation): ${this.state.inflationFutureValue.toFixed(2)}</h4> 
+          <h2>FUTURE VALUE: { this.state.nominalFutureValue.toFixed(2) }</h2> 
+          <h4>(Adjusted for Inflation): ${ this.state.inflationFutureValue.toFixed(2) }</h4> 
 
-          <h3>Tax refund:</h3>
+          <h3>Tax Refund:</h3>
           <div className="output__wrapper">
-            <h4>RRSP: {this.state.rrspTaxRefund.toFixed(2)} $</h4>
-            <h4>TFSA: {this.state.tfsaTaxRefund.toFixed(2)} $</h4>
+            <h4>RRSP: { this.state.rrspTaxRefund.toFixed(2) } $</h4>
+            <h4>TFSA: { this.state.tfsaTaxRefund.toFixed(2) } $</h4>
           </div>
 
           <h3>Tax Due on Withdrawal:</h3>
           <div className="output__wrapper">
-            <h4>RRSP: {this.state.rrspWithdrawalTaxValue.toFixed(2)} $</h4>
-            <h4>TFSA: {this.state.tfsaWithdrawalTaxValue.toFixed(2)} $</h4>
+            <h4>RRSP: {this.state.rrspWithdrawalTaxValue.toFixed(2) } $</h4>
+            <h4>TFSA: {this.state.tfsaWithdrawalTaxValue.toFixed(2) } $</h4>
           </div>
 
 
           <h3>Future Value:</h3>
           <div className="output__wrapper">
-            <h4>RRSP: {this.state.rrspFutureValueAfterTax.toFixed(2)} $</h4>
-            <h4>TFSA: {this.state.tfsaFutureValueAfterTax.toFixed(2)} $</h4>
+            <h4>RRSP: { this.state.rrspFutureValueAfterTax.toFixed(2) } $</h4>
+            <h4>TFSA: { this.state.tfsaFutureValueAfterTax.toFixed(2) } $</h4>
           </div>
 
+  
           <h3>Future Value with invested tax refund:</h3>
           <div className="output__wrapper">
-            <h4>RRSP: {this.state.rrspWithTaxRefundFutureValueAfterTax.toFixed(2)} $</h4>
-            <h4>TFSA: {this.state.tfsaWithTaxRefundFutureValueAfterTax.toFixed(2)} $</h4>
+            <h4>RRSP: { this.state.rrspWithTaxRefundFutureValueAfterTax.toFixed(2) } $</h4>
+            <h4>TFSA: { this.state.tfsaWithTaxRefundFutureValueAfterTax.toFixed(2) } $</h4>
           </div>
 
           <style jsx> {`
